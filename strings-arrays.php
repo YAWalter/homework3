@@ -15,7 +15,8 @@
 		'ucwords'      => ucwords($text),
 		'strstr (looking for everything before "world")' 
 					=> strstr($text, 'world', true),
-		'hebrev'       => hebrev($text),
+		'strpos (looking for first occurrence of \'&\')'
+					=> strpos($text, '&'),
 		'chop'         => chop($text),
 		'number_format (8675309.0666)' 
 					=> number_format(8675309.06666, 3, '.', ', ')

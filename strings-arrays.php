@@ -44,7 +44,7 @@
 		'' => $testArray,
 		'' => $testArray,
 		'' => $testArray, */
-		'array_rand' => array_rand($testArray)
+		'array_slice' => array_slice($testArray, 2, 3)
 		);
 	
 	// output for Array Functions

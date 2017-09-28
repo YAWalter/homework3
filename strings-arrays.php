@@ -38,14 +38,14 @@
 	$obj->printArray($testArray, 'debug');
 	
 	$arrFunctions = array(
-		'asort (prints as boolean, but we\'ve transformed the array, compare above and below)' => asort($testArray),
-		'print_r' => $testArray,
+		'asort (prints as boolean, but we\'ve transformed the array, compare above and below)'   => asort($testArray),
+		'print_r' 			   => $testArray,
 		'array_chunk (groups of 6)' => array_chunk($testArray, 6),
-		'array_count_values' => array_count_values($testArray),
-		'array_sum' => array_sum($testArray),
-		'count' => count($testArray),
+		'array_count_values' 	   => array_count_values($testArray),
+		'array_sum' 			   => array_sum($testArray),
+		'count' 				   => count($testArray),
+		'array_unique' 		   => array_unique($testArray),
 /*		'' => $testArray,
-		'' => $testArray,
 		'' => $testArray, */
 		'array_slice (grab 3 elements starting from the 2nd)' => array_slice($testArray, 2, 3)
 		);

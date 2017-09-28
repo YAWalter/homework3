@@ -38,9 +38,9 @@
 		'print_r' => $testArray,
 		'array_chunk' => array_chunk($testArray, 6),
 		'array_count_values' => array_count_values($testArray),
+		'array_sum' => array_sum($testArray),
+		'asort' => asort($testArray),
 /*		'' => $testArray,
-		'' => $testArray,
-		'' => $testArray,
 		'' => $testArray,
 		'' => $testArray,
 		'' => $testArray, */

@@ -3,7 +3,7 @@
 	$obj = new main();
 	
 	// set the $text string we're working with
-	$text = '&nbsp; Hello, world! I am an example string & I will be used in the string examples!  ';
+	$text = '&nbsp; Hello, world! I am an example string and I will be used in the string examples!  ';
 	
 	// this array describes the transformations we're using (the keys), with descriptors where necessary, and provides the transformed $text
 	$strFunctions = array(
@@ -16,7 +16,7 @@
 		'strstr (looking for everything before "world")' 
 					=> strstr($text, 'world', true),
 		'strpos (looking for first occurrence of \'&\')'
-					=> strpos($text, '&'),
+					=> strpos($text, 'I'),
 		'chop'         => chop($text),
 		'number_format (8675309.0666)' 
 					=> number_format(8675309.06666, 3, '.', ', ')

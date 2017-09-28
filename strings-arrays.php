@@ -11,13 +11,14 @@
 		'strtolower'   => strtolower($text), 
 		'str_shuffle'  => str_shuffle($text),
 		'strlen'       => strlen($text),
-		'rtrim'        => rtrim($text),
+		'rtrim (trailing whitespace removed)'
+					=> rtrim($text),
 		'ucwords'      => ucwords($text),
 		'strstr (looking for everything before "world")' 
 					=> strstr($text, 'world', true),
-		'strpos (looking for first occurrence of \'&\')'
+		'strpos (looking for first occurrence of \'I\')'
 					=> strpos($text, 'I'),
-		'chop'         => chop($text),
+		'wordwrap'	=> wordwrap($text, 25, ' $'),
 		'number_format (8675309.0666)' 
 					=> number_format(8675309.06666, 3, '.', ', ')
 		);

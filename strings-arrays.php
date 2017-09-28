@@ -45,10 +45,10 @@
 		'array_sum' 			   => array_sum($testArray),
 		'count' 				   => count($testArray),
 		'array_unique' 		   => array_unique($testArray),
-		'shuffle' 			   => shuffle($testArray),
 		'array_reverse' 		   => array_reverse($testArray),
 		'array_slice (grab 3 elements starting from the 2nd)' 
-							   => array_slice($testArray, 2, 3)
+							   => array_slice($testArray, 2, 3),
+		'shuffle' 			   => shuffle($testArray)
 		);
 	
 	// output for Array Functions
@@ -56,6 +56,9 @@
 		$obj->printArray($funct, $name);
 		$obj->endSection();
 	}
+	
+	// ...finally, print the array as it exists now (to show the effects of shuffle)
+	$obj->printArray($testArray, 'debug');
 
 	class main {
 		

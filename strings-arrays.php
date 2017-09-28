@@ -45,9 +45,10 @@
 		'array_sum' 			   => array_sum($testArray),
 		'count' 				   => count($testArray),
 		'array_unique' 		   => array_unique($testArray),
-/*		'' => $testArray,
-		'' => $testArray, */
-		'array_slice (grab 3 elements starting from the 2nd)' => array_slice($testArray, 2, 3)
+		'shuffle' 			   => shuffle($testArray),
+		'array_reverse' 		   => array_reverse($testArray),
+		'array_slice (grab 3 elements starting from the 2nd)' 
+							   => array_slice($testArray, 2, 3)
 		);
 	
 	// output for Array Functions

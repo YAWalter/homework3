@@ -35,8 +35,8 @@
 		3617, 8888, 3, 224, .5, 98.6, 98.6, 8888, .036852, 3.1415926535897932384
 		);
 	$arrFunctions = array(
-		'print_r' => $testArray,
 		'asort' => asort($testArray),
+		'print_r' => $testArray,
 		'array_chunk (groups of 6)' => array_chunk($testArray, 6),
 		'array_count_values' => array_count_values($testArray),
 		'array_sum' => array_sum($testArray),

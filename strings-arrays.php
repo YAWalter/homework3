@@ -37,14 +37,14 @@
 	$arrFunctions = array(
 		'print_r' => $testArray,
 		'asort' => asort($testArray),
-		'array_chunk' => array_chunk($testArray, 6),
+		'array_chunk (groups of 6)' => array_chunk($testArray, 6),
 		'array_count_values' => array_count_values($testArray),
 		'array_sum' => array_sum($testArray),
 		'count' => count($testArray),
 /*		'' => $testArray,
 		'' => $testArray,
 		'' => $testArray, */
-		'array_slice' => array_slice($testArray, 2, 3)
+		'array_slice (grab 3 elements starting from the 2nd)' => array_slice($testArray, 2, 3)
 		);
 	
 	// output for Array Functions

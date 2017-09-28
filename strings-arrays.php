@@ -32,16 +32,16 @@
 	echo '<br><br><br>';
 	// now we set the array to work with, and the functions array
 	$testArray = array(
-		3617, 8888, 3, 224, .5, 10016, 98.6, 8888, .036852, 3.1415926535897932384
+		3617, 8888, 3, 224, .5, 98.6, 98.6, 8888, .036852, 3.1415926535897932384
 		);
 	$arrFunctions = array(
 		'print_r' => $testArray,
+		'asort' => asort($testArray),
 		'array_chunk' => array_chunk($testArray, 6),
 		'array_count_values' => array_count_values($testArray),
 		'array_sum' => array_sum($testArray),
-		'asort' => asort($testArray),
+		'count' => count($testArray),
 /*		'' => $testArray,
-		'' => $testArray,
 		'' => $testArray,
 		'' => $testArray, */
 		'array_slice' => array_slice($testArray, 2, 3)

@@ -35,10 +35,10 @@
 		3617, 8888, 3, 224, .5, 10016, 98.6, 8888, .036852, 3.1415926535897932384
 		);
 	$arrFunctions = array(
+		'print_r' => $testArray,
 		'array_chunk' => array_chunk($testArray, 6),
 		'array_count_values' => array_count_values($testArray),
 /*		'' => $testArray,
-		'' => $testArray,
 		'' => $testArray,
 		'' => $testArray,
 		'' => $testArray,

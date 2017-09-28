@@ -47,9 +47,9 @@
 		'array_sum' 			   => array_sum($testArray),
 		'count' 				   => count($testArray),
 		'array_unique' 		   => array_unique($testArray),
-		'array_reverse' 		   => array_reverse($testArray),
 		'array_slice (grab 3 elements starting from the 2nd)' 
 							   => array_slice($testArray, 2, 3),
+		'array_reverse' 		   => array_reverse($testArray),
 		'shuffle' 			   => shuffle($testArray)
 		);
 	

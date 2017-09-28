@@ -60,7 +60,7 @@
 	}
 	
 	// ...finally, print the array as it exists now (to show the effects of shuffle)
-	$obj->printArray($testArray, 'debug');
+	$obj->printArray($testArray, 'last debug');
 
 	class main {
 		
